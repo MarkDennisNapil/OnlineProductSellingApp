@@ -1,0 +1,512 @@
+body{
+  background-color: white;
+  border-radius: 12px;
+  
+}
+#logo{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.center{
+  margin: none;
+  width: auto;
+  border: none;
+  border-radius: 12px;
+  background-color: lightgrey;
+  padding: 1px;
+  padding-bottom: 12px;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.center p{
+  font-size: 20px;
+}
+.login-center {
+  border: 1px solid;
+  border-radius: 12px;
+  background: transparent;
+  border: none;
+  padding: 7px;
+  justify-content: center;
+}
+.hide_element{
+  display: none;
+}
+div.center select{
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+ul{
+  list-style-type: none;
+  
+}
+#nav{
+  font-size: 12px;
+  background-color: lightgrey;
+  border-radius: 12px;
+  padding: 1px;
+  border: none;
+  justify-content: center;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-pic{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cust-profile{
+  background: transparent;
+  border-radius: 12px;
+}
+.v-cust-prof{
+  border: none;
+  background-color: lightgrey;
+}
+.v-cust-prof tr{
+  border: none;
+  background: transparent;
+}
+.v-cust-prof tr td{
+  border: none;
+  background: transparent;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+div.img{
+  border-radius: 12px;
+  text-align: right;
+  float: left;
+  width: 160px;
+  height: 200px;
+  margin-left: 12px;
+  background-color: lightgrey;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.img img{
+  width: 160px;
+  height: 150px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+div.img p{
+  padding: 1px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+div h1{
+  color: red;
+}
+legend{
+  font-size: 20px;
+  font-weight: bold;
+}
+fieldset{
+  border-radius: 12px;
+}
+ul {
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 1px;
+  padding: 8px;
+  text-decoration: none;
+}
+#not-desc{
+  color: green;
+}
+.size-btn{
+  float: right;
+  color: white;
+  font-size: 8px;
+  font-weight: bold;
+  border: none;
+  background-color: red;
+  border-radius: 15px;
+}
+div.desc{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+div.img:hover {
+    
+}
+
+div.desc {
+    font-size: 8px;
+    padding: 2px;
+    text-align: left;
+    background: transparent;
+    background-color: lightgrey;
+}
+div.desc p{
+  padding: 2px;
+  text-align: left;
+}
+li a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border-radius: 7px;
+}
+p{
+  font-size: 12px;
+}
+a{
+  text-decoration: none;;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+#order-list a:hover {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border-radius: 7px;
+}
+#profile-pic{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profile{
+  margin: 7px;
+  background-color: grey;
+  padding: 15px;
+}
+.img_profilepic{
+  width: 30px;
+  height: 30px;
+  float: right;
+  border-radius: 50%;
+}
+.product-image-fetch{
+  width: 600px;
+  height: auto;
+}
+div.profile-pic p{
+  text-align: right;
+}
+table{
+  border: 1px solid;
+  border-radius: 12px;
+}
+th{
+  font-size:8px;
+  background-color: grey;
+}
+td{
+  font-size: 8px;
+  border: 1px solid;
+  padding: 5px;
+  background-color: lightgrey;
+}
+td a{
+    font-size:8px;
+}
+.login-field{
+  width:90%;
+  border: none;
+  background-color: lightgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-tab, .addproduct-tab, .up-profilepic-tab{
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile-tab tr, .addproduct-tab tr, .up-profilepic-tab tr{
+  border: none;
+}
+.profile-tab tr td, .addproduct-tab tr td, .up-profilepic-tab tr td{
+  font-size:7px;
+  background-color: white;
+  background: transparent;
+  border: none;
+}
+.tab-notif{
+  padding: 3px;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+}
+.tab-notif tr{
+  background: transparent;
+  padding: 7px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tab-notif tr td{
+  border: none;
+  background: transparent;
+}
+.tab-review, .tab-mycart, .tab-torecieve, .tab-product, .tab-account, .tab-deliver, .tab-orders, .tab-register{
+  background-color: lightgrey;
+  border: none;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tab-mycart tr, .tab-mycart tr, .tab-torecieve tr, .tab-product tr, .tab-account tr, .tab-orders tr, .tab-deliver tr, .tab-register tr{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border: none;
+}
+.tab-mycart tr th, .tab-mycart tr th, .tab-torecieve tr th, .tab-product tr th, .tab-account tr th, .tab-orders tr th, .tab-deliver tr th, .tab-register tr th{
+  background: transparent;
+}
+.tab-mycart tr td, .tab-mycart tr td, .tab-torecieve tr td, .tab-product tr td, .tab-account tr td, .tab-orders tr td, .tab-deliver tr td, .tab-register tr td{
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+.email-rev{
+  color: black; 
+  background-color: cyan;
+  border: none; 
+  font-weight: bold; 
+  border-top-left-radius: 15px; 
+  border-top-right-radius: 15px;
+}
+.rate-rev{
+  background-color: white; 
+  padding: 12px; 
+  border: none; 
+  font-weight: bold; 
+}
+.comm-rev{
+  background-color: white; 
+  font-size: 20px; 
+  padding: 12px; 
+  border: none; 
+  font-weight: bold; 
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.comm-rev p{
+  font-size: 20px;
+}
+#notification {
+  background-color: lightgrey;
+}
+#notification h3{
+  background-color: grey;
+}
+#notification h3 a{
+  padding: 7px;
+}
+.product-img{
+  width: 300px;
+}
+#order-confirm, #btnregister{
+  font-size: 8px;
+  font-weight: bold;
+  background-color: limegreen;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  float: right;
+  margin-right: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#add-to-cart{
+  font-size: 8px;
+  font-weight: bold;
+  background-color: blue;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  float: left;
+  margin-left: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#order-cancel {
+  font-size: 8px;
+  font-weight: bold;
+  background-color: red;
+  padding: 12px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 12px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#btn-login {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  width: 200px;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  /*margin-left: 20%;
+  margin-right: 20%;*/
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=email]{
+  font-size: 15px;
+  margin: 2px;
+  width: 350px;
+}
+input[type=password]{
+  font-size: 15px;
+  margin: 2px;
+  width: 350px;
+}
+.edit-acc-form, .fieldset-up-account, .fieldset-register, .edit-order-field{
+ background-color: lightgrey;
+ width: auto;
+ border: none;
+ /*background: -webkit-linear-gradient(grey, white); 
+ background: -o-linear-gradient(grey, white);
+ background: -moz-linear-gradient(grey, white); 
+ background: linear-gradient(grey, white); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.edit-acc-form input[type=text], .edit-acc-form input[type=password], .btn-adminlogin-form input[type=email], .btn-adminlogin-form input[type=password], .fieldset-up-product input[type=text], .login-field input[type=email], .login-field input[type=password] {
+  font-size: 8px;
+  width: 350px;
+}
+td img{
+  width: 100px;
+  height: 100%;
+}
+.add_review{
+  font-size: 8px;
+  font-weight: bold;
+  background-color: green;
+  padding: 12px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.reg-link, .btnaddtocart, .btnupdprofile{
+  font-size: 18px;
+  color: white;
+  margin: 12px;
+  margin-top: 12px;
+  background-color: green;
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-logout{
+  font-size: 12px;
+  margin: 12px;
+  font-weight: bold;
+  margin-top: 12px;
+  background-color: red;
+  padding: 7px;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-approve, .btn-cancel, .btn-update, .btn-delete, .btn-status, .btnupdprofile, .btnupdprofilepic, .order-recieve, .btn-addproduct, .btn-edit-order, .btn-cancel-order{
+  margin: 12px;
+  color: white;
+  font-weight: bold;
+  margin-top: 12px;
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-approve, .btn-update, .btnupdprofilepic, .order-recieve, .btn-edit-order{
+  background-color: blue;
+  color: white;
+}
+a.btn-adminlogin{
+  background-color: teal;
+  margin: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 100px;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-addproduct{
+  background-color: green;
+  font-size: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-cancel, .btn-delete, .btn-logout, .btn-cancel-order{
+  background-color: red;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-status{
+  background-color: blue;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.nav-logout{
+  background-color: red;
+  font-size: 15px;
+  color: black;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.desc ul li a{
+    font-size:12px;
+}
+.tab-orders tr td a{
+    padding:5px;
+}
